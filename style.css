@@ -1,0 +1,154 @@
+nav{
+    background-color: rgb(27, 38, 49);
+    height: 4rem;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+*{
+    margin: 0%;
+    list-style: none;
+}
+.start{
+    margin: 10px;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 700;
+}
+a{
+    text-decoration: none;
+}
+li{
+    
+}
+nav ul{
+    list-style: none;
+}
+.cat button{
+    background-color: rgb(40, 116, 166);
+    color: aliceblue;
+    padding: 10px 20px;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+    transition: backgr;
+    border-radius: 10rem;
+}
+.alt-button button{
+    background-color: rgb(40, 116, 166);
+    color: aliceblue;
+    padding: 10px 20px;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+    transition: backgr;
+    margin-right: 1rem;
+    border-radius: 6rem;
+}
+.hero{
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: pink;
+}
+.hero img{
+    max-width: 70%;
+    border-radius: 10px;
+    box-shadow: 0 10px 8px rgb(0, 0, 0);
+    margin-bottom: 20px;
+    
+}
+.hero-text h1{
+    font-size: 2.5em;
+    color: black;
+    margin-bottom: 10px;
+}
+.hero-text p{
+    color: black;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+
+}
+.hero-text button{
+    background-color: rgb(40, 116, 166);
+    color: aliceblue;
+    padding: 20px 40px;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+    transition: backgr;
+    border-radius: 1rem;
+}
+.mid-p p{
+    color: black;
+    justify-content: center;
+    display: flex;
+    margin-top: 3%;
+    font-size: 30px;
+}
+.dropdown ul{
+    position: absolute;
+    padding: 1rem;
+    background-color: aliceblue;
+    margin-top: 1rem;
+    border-radius: 10%;
+    width: 7rem;
+}
+.dropdown ul li{
+    padding: 7%;
+}
+.pic img{
+    width: 100%;
+}
+.pic h2{
+    color: black;
+}
+.pic h3{
+    color: darkslategray;
+}
+.pic{
+    max-width: 305px;
+    background-color: aliceblue;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.card-body{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    padding: 2rem;
+    background-color: aliceblue;
+}
+.box{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-between;
+    gap: 5rem;
+    margin: 5rem 15rem;
+
+}
+hr{
+    height: 0;
+    color: rgb(211, 203, 203);
+}
+.ser{
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+}
+footer{
+    background-color: rgb(27, 38, 49);
+    color: rgb(238, 238, 238);
+    display: flex;
+    justify-content: space-between;
+    
+}
+.ser a{
+    color: rgb(102, 158, 195);
+}
+body{
+    background-image: url(11.jpg);
+}
